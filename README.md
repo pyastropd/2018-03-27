@@ -1,8 +1,9 @@
 Machine learning for images and more: Keras and Tensorflow
 ======
 
-Actually all Keras, with TF backend.
+### You will need to install tensorflow and keras
 
-`pip install tensorflow`
-
-`pip install keras`
+```bash
+sudo pip install tensorflow
+sudo pip install keras
+```
