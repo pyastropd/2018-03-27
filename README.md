@@ -3,7 +3,9 @@
 by *Mario Pasquato*
 
 I will present Keras. Keras is an easier way to use TensorFlow.
+
 TensorFlow is used to build and train neural networks. Keras is more user friendly.
+
 Basically we throw a numpy array with data in, and get a numpy array with predictions out.
 
 -----
