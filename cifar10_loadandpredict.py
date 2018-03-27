@@ -1,10 +1,12 @@
 from keras.models import load_model
 from keras.datasets import cifar10
 import numpy as np
-show_only_n = 10
+import matplotlib.pyplot as plt
+
+show_only_n = 10 #how many images to show
 
 #load the saved model from file
-model = load_model('model.hd5')
+model = load_model('model_good.hd5')
 model.summary()
 
 #read the data (we will use only test data)
@@ -40,3 +42,6 @@ print "Showing results on the first " + str(show_only_n) + " images"
 print "Truth, Prediction"
 print np.column_stack(([labeldict[index] for index in comp[0:show_only_n,0]], [labeldict[index] for index in comp[0:show_only_n,1]]))
 
+for i in range(0, show_only_n):
+    plt.imshow(x_test[i,:,:,:])
+    plt.show()
