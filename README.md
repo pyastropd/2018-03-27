@@ -24,3 +24,13 @@ if not, have a look at [the installation instructions over here](https://keras.i
 * You use Python (2.7 and later versions will work)
 * You don't want to learn [TensorFlow](https://www.tensorflow.org)
 * You still want to use TensorFlow through Keras
+
+## Scripts in the repo
+* `artificial_data.py` Fully connected neural net, classifies artificially generated data
+* `artificial_data_regression.py` Fully connected nn, regression
+* `cifar10.py` Convolutional nn recognizes images and saves the model
+* `cifar10_loadandpredict.py` Loads model and shows images, predictions...
+
+
+
+
