@@ -30,7 +30,10 @@ if not, have a look at [the installation instructions over here](https://keras.i
 * `artificial_data_regression.py` Fully connected nn, regression
 * `cifar10.py` Convolutional nn recognizes images and saves the model
 * `cifar10_loadandpredict.py` Loads model and shows images, predictions...
+* other scripts
 
+## Data download
+Whe you run `cifar10.py` it will download the [cifar10](https://www.cs.toronto.edu/~kriz/cifar.html) data. 
 
 
 
